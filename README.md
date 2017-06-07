@@ -1,12 +1,9 @@
 # Projet-Laravel-TodoList
 Projet de PHP Framework qui consitait a créer un todolist avec laravel
-
-
-
-
-
-
-
+pour lancer votre site, executer la commande composer install
+et pour initialiser la base de données , php artisan migrate
+les idantifiants de la base de données sont root root.
+le nom de la base de donnée est laravel.
 
 ## Laravel PHP Framework
 
