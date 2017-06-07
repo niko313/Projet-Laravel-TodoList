@@ -1,0 +1,15 @@
+ <% if (total) { %>
+  <span class="todo-count">
+    <span class="badge"><%= remaining %></span>
+    <%= remaining == 1 ? 'taches' : 'taches' %> à faire.
+  </span>
+<% } %>
+
+<% if (done) { %>
+  <span class="todo-clear">
+    <a href="#">
+      supprimer <span class="number-done"><%= done %></span>
+      taches <span class="word-done"><%= done == 1 ? 'taches' : 'effectuer' %></span>
+    </a>
+  </span>
+<% } %>
